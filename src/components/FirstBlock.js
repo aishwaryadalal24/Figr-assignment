@@ -7,9 +7,7 @@ const FirstBlock = () => {
                 <p className="headline">Impactful <br/> stories. Made <br/> effortlessly</p>
                 <p>Chronicle is a modern format of presentations... Deliver impressive, interactive stories without the design guesswork!</p>
               </div>
-              <div className="hero-tabs">
-                tabs here
-              </div>
+              <div className="hero-tabs"></div>
             </div>
         </div>
     );

@@ -17,7 +17,6 @@ const FifthBlock = () => {
     useEffect(() => {
         const xTilt = (coordinates.x - middleX)/25;
         const yTilt = (coordinates.y - middleY)/10;
-        console.log("useEffect called");
         document.querySelector(".mobile-image").style.transform = `rotateX(${yTilt}deg) rotateY(${xTilt}deg) rotateZ(0deg)`;
     }, [coordinates]);
 
