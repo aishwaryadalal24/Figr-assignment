@@ -1,0 +1,13 @@
+@import "./components/header.scss";
+@import "./components/navbar.scss";
+@import "./components/first-block.scss";
+@import "./components/combine-component.scss";
+@import "./components/second-block.scss";
+@import "./components/third-block.scss";
+@import "./components/fourth-block.scss";
+@import "./components/fifth-block.scss";
+
+.App {
+    background-color: black;
+    overflow-x: hidden;
+}

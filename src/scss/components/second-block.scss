@@ -1,0 +1,26 @@
+.second-block {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin: 200px -10rem 0 -10rem;
+}
+
+.card-column {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2px;
+}
+
+.card {
+    width: 100%;
+}
+
+.headline2 {
+    padding-left: 80px;
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 88px; 
+    color:white;
+}

@@ -1,0 +1,52 @@
+.App-logo {
+    filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(290deg) brightness(112%) contrast(97%);
+    width: 145px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.header {
+    padding: 0 0 32px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-beta-button {
+    padding: 13px 19px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 56px;
+    overflow-y: hidden;
+}
+
+.join-beta-button:hover {
+    background-color: #A594FD;
+}
+
+.join-beta-button span {
+    display: block;
+    padding: 4px;
+    transition-duration: 1s;
+}
+
+.join-beta-button span:nth-child(1) {
+    position: absolute;
+    transform-origin: top;
+}
+
+.join-beta-button span:nth-child(2) {
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+}
+
+.join-beta-button:hover span:nth-child(1) {
+  transform: rotateX(90deg);
+}
+
+.join-beta-button:hover span:nth-child(2) {
+    transform: rotateX(-10deg);
+}
