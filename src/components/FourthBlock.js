@@ -19,7 +19,6 @@ const ImagesContainer = () => {
         element.current.addEventListener('scroll', (event) => {
         event.preventDefault();
         const scrollLine = document.querySelector('.carousel-scrollbar');
-        console.log(element.current.scrollTop);
         if (element.current.scrollTop >= 1140) {
             setImgDisplay([0, 0, 1]);
             document.querySelector('.carousel-scrollbar :nth-child(3)').classList.add("fill-line");
